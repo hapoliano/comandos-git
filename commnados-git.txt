@@ -1,0 +1,12 @@
+git commit -m "mensagem correta" --amend // Comando para corrigir nome do commit 
+
+git reset --soft HEAD^ // Comando que desfaz o seu commit sem apagar o seus arquivos apenas os commits 
+  
+git rebase -i HEAD~3 // Comanddo que serve para muitas coisas abri o git editor onde posso juntar commits tbm
+
+git reset -- nomeDoArquivo // remove este arquivo do stage
+
+git add -i // abri um menu interativo para adcionar os arquivos 
+
+git reflog // registra todas as alterações de referências que ocorrem no repositório local
+
